@@ -1,0 +1,18 @@
+#正規分布
+
+参照
+https://ai-trend.jp/programming/r-beginner/normal-distribution-2/
+https://ai-trend.jp/programming/r-beginner/r-beginner/
+
+##標準正規分布を描く
+curve(dnorm,-5,5)  #curve(関数の式,横軸の最小値,横軸の最大値)
+
+
+
+##平均と分散を自由に設定して正規分布を描く
+##
+
+
+
+curve(dnorm(x,50,10),0,100)  #横軸の範囲は0～100
+
